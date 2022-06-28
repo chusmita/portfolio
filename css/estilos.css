@@ -7,54 +7,14 @@ body{
     background-size: cover;
 }
 #proyectos{
-    background-image: url('../images/fondo-proyectos.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-nav .nav-link{
-    color: #282828;
-}
-nav .active{
-    border: 1px solid #E20000;
-    border-radius: 25px;
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
 }
 h1{
-color: #E20000;
+    color: #E20000;
 }
 p{
-  color:#6a6a6a;
-  font-size: 16px;
-}
-textarea{
-    height: 150px;
-}
-.form-control{
-    border-radius: 14px;
-}
-.btn-blanco{
-    background-color: #E20000;
-    color: #370a6d;
-}
-.btn-blanco:hover{
-    color: white;
-    background-color: #370a6d;
-}
-.btn-rojo{
-    background-color: #E20000;
-    color: white !important;
-    font-weight: 100;
-    padding:  10px;
-    border: 0px;
-    text-decoration: none ;
-    border-radius: 15px;
-}
-.link-rojo{
-    text-decoration: none;
-    color: #ff4a49;
-}   
-.btn-rojo:hover{
-    color: white;
-    background-color: #370a6d;
+    color: #6a6a6a;
 }
 .btn{
     color: #370a6d;
@@ -63,19 +23,31 @@ textarea{
     border-radius: 15px;
 }
 .btn:hover{
+    color:white;
+    background-color: #370a6d;
+}
+.btn-rojo{
+    color: white;
+    background-color: #ff4a49;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn-rojo:hover{
     color: white;
     background-color: #370a6d;
 }
-.btn-Whatsapp{
+.btn-whatsapp{
     position: fixed;
-    right: 70px;
+    right: 50px;
     bottom: 0px;
     background-color: #370a6d;
-    padding:  8px 18px 15px 18px ;
-    margin-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 30px;
+    color:white;
+}
+.link-rojo{
+    color: #ff4a49;
+    text-decoration: none;
 }
 #contacto footer, #inicio footer{
     color:white;
@@ -87,7 +59,7 @@ textarea{
     font-size: 30px;
     color: white;
 }
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -121,18 +93,6 @@ textarea{
     border-radius: 80px;
     margin: 0 8px;
 }
-.whatsapp{
-    position: fixed;
-    right:70px;
-    bottom: 0px;
-    background-color: #370a6d;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.fa-whatsapp{
-    font-size: 32px;
-    color: white;
-}
 .proyecto{
     background-color: white;
 }
@@ -150,21 +110,25 @@ textarea{
     font-size: 14px;
     height: 130px;
 }
-#inicio img {
+#inicio img{
     height: 400px;
 }
-#inicio img:hover {
-    height: 400px;
+#inicio img:hover{
+    height: 410px;
 }
 .cohete{
     height: 410px;
 }
-#inicio .input-home p {
-    color:white solid;
-    font-size:17px;
-    font-weight: 600px;
-    border-radius: 50px;
-    border: 1px white;
+#inicio p{
+    color: white;
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.foto-perfil{
+    border-radius: 600px;
+    height: 300px;
 }
 
 @media (max-width: 750px) {
@@ -177,7 +141,7 @@ textarea{
         background-size: contain;
         background-repeat: no-repeat;
     }
-    #inicio span {
+    #inicio p {
         color: #E20000;
         font-size: 16px;
         border: 1px #E20000 solid;
