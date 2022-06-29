@@ -10,12 +10,30 @@ body{
     background-image: url("../images/fondo-proyectos.png");
     background-size: cover;
 }
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 25px;
+}
+.form-control{
+    border-radius: 14px;
+}
 h1{
     color: #E20000;
 }
 p{
     color: #6a6a6a;
+    font-size: 16px;
 }
+textarea{
+    height: 150px;
+}
+.link-rojo{
+    text-decoration: none;
+    color: #ff4a49;
+}   
 .btn{
     color: #370a6d;
     background-color: white;
@@ -27,23 +45,32 @@ p{
     background-color: #370a6d;
 }
 .btn-rojo{
-    color: white;
-    background-color: #ff4a49;
+    background-color: #E20000;
+    color: white !important;
+    font-weight: 100;
+    padding:  10px;
     border: 0px;
-    padding: 10px;
-    text-decoration: none;
+    text-decoration: none ;
     border-radius: 15px;
 }
 .btn-rojo:hover{
     color: white;
     background-color: #370a6d;
 }
-.btn-whatsapp{
+.btn-Whatsapp{
     position: fixed;
-    right: 50px;
+    right: 70px;
     bottom: 0px;
     background-color: #370a6d;
-    color:white;
+    padding:  8px 18px 15px 18px ;
+    margin-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+}
+.fa-whatsapp{
+    font-size: 32px;
+    color: white;
 }
 .link-rojo{
     color: #ff4a49;
@@ -141,7 +168,7 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
     }
-    #inicio p {
+    #inicio span {
         color: #E20000;
         font-size: 16px;
         border: 1px #E20000 solid;
