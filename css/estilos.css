@@ -157,7 +157,107 @@ textarea{
     border-radius: 600px;
     height: 300px;
 }
-
+.img-circle{
+    border-radius: 50%;
+}
+#sobre-mi h2{
+    color: #ffffff;
+    font-size: 25px;
+}
+#sobre-mi .card{
+    height: 190px;
+}
+#stack-tecnologico img{
+    height: 60px;
+}
+#stack-tecnologico h2 {
+    font-size: 24px;
+    color: white;
+}
+#stack-tecnologico h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}
+#experiencia h2{
+    color: #370a6d;
+}
+#formacion h2{
+    color: #E20000;
+}
+#experiencia h3{
+    color: #6a6a6a;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#experiencia h4{
+    font-size: 18px;
+    color: #370a6d;
+    font-weight: 400;
+}
+#experiencia h5{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+#formacion h3{
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: 600;
+}
+#formacion h4{
+    color: #E20000;
+    font-size: 16px;
+}
+#formacion h5{
+    font-size: 14px;
+    color: #6a6a6a;
+}
+.baw{
+    filter: grayscale(100%);
+}
+.baw:hover{
+    filter: grayscale(0%);
+}
+#idiomas{
+    background-color: #efefef;
+}
+#idiomas .card{
+    background-color: #370a6d;
+    padding: 40px 0;
+    border-radius: 15px;
+}
+#idiomas h2{
+    color: #000000;
+    text-transform: uppercase;
+}
+#idiomas ul{
+    padding: 0;
+    font-size: 15px;
+    color: #6a6a6a;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 85px;
+    color: #ffffff;
+}
+#sobre-mi footer a{
+    color: #E20000;
+    font-size: 18px;
+}
+#sobre-mi footer{
+    color: #6a6a6a;
+}
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
 @media (max-width: 750px) {
     #contacto, #inicio {
         background-image: url("../images/fondo-proyectos.png");
